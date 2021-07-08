@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+body {
+  font-family: "Work Sans" sans-serif;
+}
+
+:root {
+  --primary-white: #fff
+}
+
+
 .App {
   text-align: center;
 }
@@ -14,7 +25,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +46,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/******** NAVBAR ********/
+
+.logo {
+  width: 16.25rem;
+}
+
+/******** MENU LINKS ********/
+
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+
+}
+
+
+.navbar-nav > li > a {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  color: var(--primary-white) !important;
+
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem;
 }
