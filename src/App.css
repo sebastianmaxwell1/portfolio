@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 
 body {
-  font-family: "Work Sans" sans-serif;
+  font-family: "Work Sans" sans-serif !important;
 }
 
 :root {
@@ -174,3 +174,28 @@ nav ul li {
 
 }
 
+/******** About Me ********/
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid green;
+}
+
+.about-heading {
+  color: #008000;
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
+}
